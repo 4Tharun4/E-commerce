@@ -15,7 +15,7 @@ const LoginSignup = () => {
   const login = async ()=>{
 console.log("login",formdata);
 let responedata ;
-     await fetch("https://e-commerce-dkp8.vercel.app//login",{
+     await fetch("https://e-commerce-dkp8.vercel.app/login",{
       method:"POST",
       headers:{
         Accept:'application/json',
@@ -33,7 +33,7 @@ if(responedata.sucess===true){
   const SignUp = async()=>{
     console.log("sign up",formdata);
     let responedata ;
-     await fetch("https://e-commerce-dkp8.vercel.app//signup",{
+     await fetch("https://e-commerce-dkp8.vercel.app/signup",{
       method:"POST",
       headers:{
         Accept:'application/json',
